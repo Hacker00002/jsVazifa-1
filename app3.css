@@ -1,0 +1,50 @@
+.star{
+    width: 0;
+    height: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 15px;
+    padding: 50px;
+    margin-bottom: 50px;
+    background: rgba(115, 115, 205, 0.495);
+    background: linear-gradient(90deg, rgba(115,115,205,0.6674019949776786) 35%, rgba(0,212,255,0.6337885495995272) 100%);
+}
+
+input{
+    border-radius: 15px;
+    outline: none;
+    padding: 10px 20px; 
+    width: 250px;
+}
+
+button{
+    /* width: 75px; */
+    border-radius: 15px;
+    padding: 10px 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#button{
+    width: 70px;
+    padding: 10px 0;
+}
+
+.all{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
